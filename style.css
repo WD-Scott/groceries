@@ -1,0 +1,36 @@
+
+
+body {
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+h1, h2, h3, h4 {
+    color: #194570
+}
+
+button[kind="primary"] {
+    background-color: #194570 !important;
+    border: none !important;
+    color: white !important
+}
+
+.stButton > button {
+    background-color: #194570 !important;
+    border-radius: 5px;
+    color: white;
+}
+
+.stCheckbox {
+    accent-color: #194570 !important;
+}
+
+.grocery-item {
+    font-size: 16px;
+    padding: 4px;
+}
+
+.grocery-item-checked {
+    color: gray;
+    text-decoration: line-through
+}
